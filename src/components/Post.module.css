@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    width: 900px;
+    gap: 20px;
+    justify-content: space-between;
+    background: #F5F5F5;
+}
+.imgPost{
+    width: 400px;
+    border-radius: 15px;
+}
+.namePost{
+    font-size: 40px;
+}
+.namePost::before{
+    content: "name:";
+    margin-right: 20px;
+}
+.yearPost{
+    font-size: 30px;
+}
+.yearPost::before{
+    content: "year:";
+    margin-right: 25px;
+    color: orange;
+}
+.ratingPost{
+    font-size: 24px;
+}
+.ratingPost::before{
+    content: "rating:";
+    font-size: 30px;
+    margin-right: 25px;
+}
+.mainCharacterPost{
+    font-size: 25px;
+}
+.mainCharacterPost::before{
+    content: "главный герой ";
+}
+.plotPost{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.stidiosPost{
+    font-size: 30px;
+    color: orange;
+}
